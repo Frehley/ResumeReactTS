@@ -1,15 +1,15 @@
-import { FC, memo } from 'react';
+import {FC, memo} from 'react';
 
-import { TimelineItem } from '../../../data/dataDef';
+import {TimelineItem} from '../../../data/dataDef';
 
 
-const TimelineItem: FC<{ item: TimelineItem; }> = memo(({ item }) => {
-  const { title, date, location, image, content } = item;
+const TimelineItem: FC<{item: TimelineItem;}> = memo(({item}) => {
+  const {title, date, location, image, content} = item;
   return (
 
     <div className="flex flex-col gap-6 md:flex-row md:items-center">
       <div className="col-3 text-end">
-        <img style={{ marginLeft: "auto", marginRight: "0", width: "120px", height: "40px" }} alt={location} src={image} />
+        <img style={{marginLeft: "auto", marginRight: "0", width: "120px", height: "40px"}} alt={location} src={image} />
       </div>
 
       <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">

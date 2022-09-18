@@ -24,7 +24,7 @@ const About: FC = memo(() => {
           </div>
 
           {/*           <p>
-            <a href={{ resumepdf }} target="_blank" className=''="btn btn-lg btn-success" download>
+            <a href={{resumepdf}} target="_blank" className=''="btn btn-lg btn-success" download>
             <i className="fa fa-download fa-2x pull-left "></i> Download Resume</a>
         </p> */}
 

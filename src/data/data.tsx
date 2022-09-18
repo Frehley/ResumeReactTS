@@ -22,7 +22,7 @@ import mastersoftImage from '../images/companies/mastersoft.png';
 import qstomImage from '../images/companies/qstom.png';
 import sancorImage from '../images/companies/sancor.png';
 import uocraImage from '../images/companies/uocra.svg';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -257,16 +257,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '1993-2003',
+    location: 'CCI Buenos Aires',
+    title: 'English language speaker',
+    content: <p>I studied english my entire childhood here.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2000-2006',
+    location: 'Hogar Naval. Stella Maris',
+    title: 'High School',
+    content: <p>I did my high school here. It's and industrial and technical school.</p>,
   },
 ];
 
@@ -418,23 +418,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'frehley3000@protonmail.com',
+      href: 'mailto:frehley3000@protonmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Buenos Aires, City',
+      href: 'https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6158238,-58.4332985,12z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@ace_Zeta',
+      href: 'https://www.instagram.com/ace_zeta/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'frehley3000',
+      href: 'https://github.com/frehley3000',
     },
   ],
 };
@@ -443,9 +443,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/frehley3000'},
+  /* {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'}, */
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/dzuccoli/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ace_zeta/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/frehley3000'},
 ];
