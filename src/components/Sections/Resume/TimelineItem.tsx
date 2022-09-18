@@ -1,15 +1,17 @@
+
+/* import Image from 'next/image'; */
 import {FC, memo} from 'react';
 
 import {TimelineItem} from '../../../data/dataDef';
 
 
 const TimelineItem: FC<{item: TimelineItem;}> = memo(({item}) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const {title, date, location, image, content} = item;
   return (
-
     <div className="flex flex-col gap-6 md:flex-row md:items-center">
       <div className="col-3 text-end">
-        <img style={{marginLeft: "auto", marginRight: "0", width: "120px", height: "40px"}} alt={location} src={image} />
+        {/* <Image width="120px" height="40px" alt={location} src={image} /> */}
       </div>
 
       <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
@@ -26,6 +28,7 @@ const TimelineItem: FC<{item: TimelineItem;}> = memo(({item}) => {
         </div>
         {content}
       </div>
+      <br />
     </div>
   );
 });

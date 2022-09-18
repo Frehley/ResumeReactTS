@@ -22,13 +22,6 @@ const About: FC = memo(() => {
             <h2 className="text-2xl font-bold text-white">About me</h2>
             <p className="prose prose-sm text-gray-300 sm:prose-base">{description}</p>
           </div>
-
-          {/*           <p>
-            <a href={{resumepdf}} target="_blank" className=''="btn btn-lg btn-success" download>
-            <i className="fa fa-download fa-2x pull-left "></i> Download Resume</a>
-        </p> */}
-
-
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {aboutItems.map(({label, text, Icon}, idx) => (
               <li className="col-span-1 flex  items-start gap-x-2" key={idx}>

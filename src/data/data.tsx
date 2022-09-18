@@ -78,7 +78,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Diego Zuccoli.`,
+  name: `I'm Diego Zuccoli`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -96,7 +96,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '../../data/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -260,13 +260,22 @@ export const education: TimelineItem[] = [
     date: '1993-2003',
     location: 'CCI Buenos Aires',
     title: 'English language speaker',
+    image: contabiliumImage,
     content: <p>I studied english my entire childhood here.</p>,
   },
   {
     date: '2000-2006',
     location: 'Hogar Naval. Stella Maris',
     title: 'High School',
+    image: contabiliumImage,
     content: <p>I did my high school here. It's and industrial and technical school.</p>,
+  },
+  {
+    date: '2006-2007',
+    location: 'IAC',
+    title: 'Programmer',
+    image: contabiliumImage,
+    content: <p>I took a two years course on programming. It was a good start point.</p>,
   },
 ];
 

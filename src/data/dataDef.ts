@@ -91,7 +91,7 @@ export interface TimelineItem {
   date: string;
   location: string;
   title: string;
-  image?: string;
+  image?: string | StaticImageData;
   content: JSX.Element;
 }
 
