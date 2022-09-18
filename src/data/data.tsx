@@ -11,7 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+/* import StackOverflowIcon from '../components/Icon/StackOverflowIcon'; */
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import assurantImage from '../images/companies/assurant.png';
 import cfoImage from '../images/companies/cfo.png';
