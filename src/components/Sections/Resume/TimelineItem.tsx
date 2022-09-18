@@ -7,12 +7,12 @@ import {TimelineItem} from '../../../data/dataDef';
 
 const TimelineItem: FC<{item: TimelineItem;}> = memo(({item}) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const {title, date, location, image, content} = item;
+  const {title, date, location, content} = item;
   return (
     <div className="flex flex-col gap-6 md:flex-row md:items-center">
-      <div className="col-3 text-end">
-        {/* <Image width="120px" height="40px" alt={location} src={image} /> */}
-      </div>
+      {/*       <div className="col-3 text-end">
+        <Image width="120px" height="40px" alt={location} src={image} /> 
+      </div> */}
 
       <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
         <div className="flex flex-col pb-4">
