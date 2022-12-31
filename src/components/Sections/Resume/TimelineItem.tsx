@@ -1,13 +1,13 @@
 
 /* import Image from 'next/image'; */
-import {FC, memo} from 'react';
+import { FC, memo } from 'react';
 
-import {TimelineItem} from '../../../data/dataDef';
+import { TimelineItem } from '../../../data/dataDef';
 
 
-const TimelineItem: FC<{item: TimelineItem;}> = memo(({item}) => {
+const TimelineItem: FC<{ item: TimelineItem; }> = memo(({ item }) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const {title, date, location, content} = item;
+  const { title, date, location, content } = item;
   return (
     <div className="flex flex-col gap-6 md:flex-row md:items-center">
       {/*       <div className="col-3 text-end">

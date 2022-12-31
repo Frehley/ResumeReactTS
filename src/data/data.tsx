@@ -78,7 +78,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Diego Zuccoli`,
+  name: `Hi! I'm Diego Zuccoli`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -88,9 +88,10 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Assurant</strong> helping build a modern, secure and robust core software.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me learning <strong className="text-stone-100">electronics</strong>,
+        plucking my <strong className="text-stone-100">bass</strong>, or doing some {' '}
+        <strong className="text-stone-100">3D printing</strong>.
+        You can find out more <strong className="text-stone-100">about me</strong> down here.
       </p>
     </>
   ),
@@ -117,12 +118,12 @@ export const aboutData: About = {
   description: `I was born on September 4, 1986 and I currently live in Buenos Aires City. 
   I am a person who enjoys what he does. I learned to program 20 years ago in a self-taught way. I don't consider myself bilingual but I do get along very well with English.`,
   aboutItems: [
-    {label: 'Location', text: 'Buenos Aires City', Icon: MapIcon},
-    {label: 'Age', text: '36', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Argentina', Icon: FlagIcon},
-    {label: 'Interests', text: 'Code, 3D printing, music...', Icon: SparklesIcon},
-    {label: 'Study', text: 'IAC', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Assurant, Inc.', Icon: OfficeBuildingIcon},
+    { label: 'Location', text: 'Buenos Aires City', Icon: MapIcon },
+    { label: 'Age', text: '36', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Argentina', Icon: FlagIcon },
+    { label: 'Interests', text: 'Code, 3D printing, music...', Icon: SparklesIcon },
+    { label: 'Study', text: 'IAC', Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Assurant, Inc.', Icon: OfficeBuildingIcon },
   ],
 };
 
@@ -452,9 +453,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/frehley3000'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/frehley3000' },
   /* {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'}, */
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/dzuccoli/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ace_zeta/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/frehley3000'},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/dzuccoli/' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ace_zeta/' },
+  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/frehley3000' },
 ];
