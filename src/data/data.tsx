@@ -165,7 +165,7 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: '.NET Core',
+        name: '.NET',
         level: 10,
       },
       {
