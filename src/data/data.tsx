@@ -118,12 +118,12 @@ export const aboutData: About = {
   description: `I was born on September 4, 1986 and I currently live in Buenos Aires City. 
   I am a person who enjoys what he does. I learned to program 20 years ago in a self-taught way. I don't consider myself bilingual but I do get along very well with English.`,
   aboutItems: [
-    { label: 'Location', text: 'Buenos Aires City', Icon: MapIcon },
-    { label: 'Age', text: '36', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Argentina', Icon: FlagIcon },
-    { label: 'Interests', text: 'Code, 3D printing, music...', Icon: SparklesIcon },
-    { label: 'Study', text: 'IAC', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'Assurant, Inc.', Icon: OfficeBuildingIcon },
+    {label: 'Location', text: 'Buenos Aires City', Icon: MapIcon},
+    {label: 'Age', text: '36', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Argentina', Icon: FlagIcon},
+    {label: 'Interests', text: 'Code, 3D printing, music...', Icon: SparklesIcon},
+    {label: 'Study', text: 'IAC', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Assurant, Inc.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -261,21 +261,21 @@ export const education: TimelineItem[] = [
     date: '1993-2003',
     location: 'CCI Buenos Aires',
     title: 'English language speaker',
-    image: contabiliumImage,
+    image: '/nada',
     content: <p>I studied english my entire childhood here.</p>,
   },
   {
     date: '2000-2006',
     location: 'Hogar Naval. Stella Maris',
     title: 'High School',
-    image: contabiliumImage,
+    image: '/nada',
     content: <p>I did my high school here. It's and industrial and technical school.</p>,
   },
   {
     date: '2006-2007',
     location: 'IAC',
     title: 'Programmer',
-    image: contabiliumImage,
+    image: '/nada',
     content: <p>I took a two years course on programming. It was a good start point.</p>,
   },
 ];
@@ -284,7 +284,7 @@ export const experience: TimelineItem[] = [
   {
     date: '2022 - Present',
     location: 'Assurant, Inc.',
-    title: 'Senior .NET Core Dev',
+    title: 'Senior .NET Dev',
     image: assurantImage,
     content: (
       <p>
@@ -308,7 +308,7 @@ export const experience: TimelineItem[] = [
   {
     date: '2020 - 2021',
     location: 'CFO Tech',
-    title: 'Senior .NET Core Dev',
+    title: 'Senior .NET Dev',
     image: cfoImage,
     content: (
       <p>
@@ -321,7 +321,7 @@ export const experience: TimelineItem[] = [
   {
     date: '2019 - 2020',
     location: 'SML Experta ART',
-    title: 'Senior .NET Core Dev',
+    title: 'Senior .NET Dev',
     image: expertaImage,
     content: (
       <p>
@@ -453,9 +453,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/frehley3000' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/frehley3000'},
   /* {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'}, */
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/dzuccoli/' },
-  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ace_zeta/' },
-  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/frehley3000' },
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/dzuccoli/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ace_zeta/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/frehley3000'},
 ];
