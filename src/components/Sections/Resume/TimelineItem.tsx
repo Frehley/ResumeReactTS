@@ -10,7 +10,7 @@ const TimelineItem: FC<{item: TimelineItem;}> = memo(({item}) => {
   const {title, date, location, content, image} = item;
   return (
     <div className="flex flex-col gap-6 md:flex-row md:items-center text-neutral-300">
-      <div className="col-3 text-end">
+      <div className="col-3 text-end col-span-1 flex justify-center md:justify-start">
         <Image layout="fixed" width="160px" height="40px" alt={location} src={image!} />
       </div>
 
