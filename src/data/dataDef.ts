@@ -40,7 +40,7 @@ interface HeroActionItem {
 export interface About {
   profileImageSrc?: string;
   download?: string;
-  description: string;
+  description: string[];
   aboutItems: AboutItem[];
 }
 
