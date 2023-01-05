@@ -450,8 +450,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'frehley3000',
-      href: 'https://github.com/frehley3000',
+      text: 'frehley',
+      href: 'https://github.com/frehley',
     },
   ],
 };
