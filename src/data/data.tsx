@@ -427,12 +427,16 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'You can contact me with any of these methods.',
   items: [
     {
       type: ContactType.Email,
       text: 'frehley3000@protonmail.com',
       href: 'mailto:frehley3000@protonmail.com',
+    },
+    {
+      type: ContactType.Phone,
+      text: '+54 11 6054 5477',
     },
     {
       type: ContactType.Location,
