@@ -117,6 +117,9 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I was born on September 4, 1986 and I currently live in Buenos Aires City. 
   I am a person who enjoys what he does. I learned to program 20 years ago in a self-taught way. I don't consider myself bilingual but I do get along very well with English.`,
+  description2: `I am interested in 3D printing, I have two printers and I am building another one from scratch.`,
+  description3: `I also like to program with Arduino or some microcontroller like ESP8266.`,
+  description4: `Out of all this I collect action figures from the 80s and 90s, for example He Man or Silverhawks.`,
   aboutItems: [
     {label: 'Location', text: 'Buenos Aires City', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
