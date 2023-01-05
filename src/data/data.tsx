@@ -407,18 +407,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Santiago Alvarado, Software Development Director',
+      text: 'I have worked with Diego on various projects and he has always proven to be an exceptionally talented programmer. His problem-solving skills and dedication to work are impressive, and his attention to detail is unmatched. I am very happy to have had the opportunity to work with him',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Eduardo Marquez, Software Engineer',
+      text: 'I have had the pleasure of working with Diego on several occasions and have always been impressed by his technical knowledge and ability to work as a team. He is a great communicator and is always willing to help others. His passion for technology is contagious and always inspires me to be better at my job.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Manuel De La Torre, Software Architect',
+      text: 'I have had the opportunity to collaborate with Diego on various projects and have always been impressed by their ability to find creative solutions to complex problems. His work is always of a high quality and his work ethic is unwavering. I feel lucky to have had the opportunity to work with him and learn from him.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
